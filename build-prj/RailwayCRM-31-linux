@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RailwayCRM-31-linux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RailwayCRM-31-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RailwayCRM-31-linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../RailwayCRMApp.cpp" />
+		<Unit filename="../RailwayCRMApp.h" />
+		<Unit filename="../RailwayCRMMain.cpp" />
+		<Unit filename="../RailwayCRMMain.h" />
+		<Unit filename="../datamodule/crm_account.cpp" />
+		<Unit filename="../datamodule/crm_account.h" />
+		<Unit filename="../datamodule/crm_backup.cpp" />
+		<Unit filename="../datamodule/crm_backup.h" />
+		<Unit filename="../datamodule/crm_dataset.cpp" />
+		<Unit filename="../datamodule/crm_dataset.h" />
+		<Unit filename="../datamodule/crm_welcome.cpp" />
+		<Unit filename="../datamodule/crm_welcome.h" />
+		<Unit filename="../gui/InputParameterItemDialog.cpp" />
+		<Unit filename="../gui/InputParameterItemDialog.h" />
+		<Unit filename="../gui/LoginDialog.cpp" />
+		<Unit filename="../gui/LoginDialog.h" />
+		<Unit filename="../gui/ParameterDataModal.cpp" />
+		<Unit filename="../gui/ParameterDataModal.h" />
+		<Unit filename="../gui/ParameterDefDialog.cpp" />
+		<Unit filename="../gui/ParameterDefDialog.h" />
+		<Unit filename="../gui/crmChangePasswordDialog.cpp" />
+		<Unit filename="../gui/crmChangePasswordDialog.h" />
+		<Unit filename="../gui/crmDataDefineDialog.cpp" />
+		<Unit filename="../gui/crmDataDefineDialog.h" />
+		<Unit filename="../gui/crmDayAccountDialog.cpp" />
+		<Unit filename="../gui/crmDayAccountDialog.h" />
+		<Unit filename="../gui/crmEditDataDialog.h" />
+		<Unit filename="../gui/crmFilterDataDialog.h" />
+		<Unit filename="../gui/crmGuestDefDialog.cpp" />
+		<Unit filename="../gui/crmGuestDefDialog.h" />
+		<Unit filename="../gui/crmGuestFilterDialog.cpp" />
+		<Unit filename="../gui/crmGuestFilterDialog.h" />
+		<Unit filename="../gui/crmImageDefDialog.cpp" />
+		<Unit filename="../gui/crmImageDefDialog.h" />
+		<Unit filename="../gui/crmImagesDialog.cpp" />
+		<Unit filename="../gui/crmImagesDialog.h" />
+		<Unit filename="../gui/crmImagesSelectDialog.cpp" />
+		<Unit filename="../gui/crmImagesSelectDialog.h" />
+		<Unit filename="../gui/crmMessageBox.cpp" />
+		<Unit filename="../gui/crmMessageBox.h" />
+		<Unit filename="../gui/crmOperatorDefDialog.cpp" />
+		<Unit filename="../gui/crmOperatorDefDialog.h" />
+		<Unit filename="../gui/crmRecordFilterDialog.cpp" />
+		<Unit filename="../gui/crmRecordFilterDialog.h" />
+		<Unit filename="../gui/crmRecordModifyDialog.cpp" />
+		<Unit filename="../gui/crmRecordModifyDialog.h" />
+		<Unit filename="../gui/crmReportDialog.cpp" />
+		<Unit filename="../gui/crmReportDialog.h" />
+		<Unit filename="../gui/crmRightDefDialog.cpp" />
+		<Unit filename="../gui/crmRightDefDialog.h" />
+		<Unit filename="../gui/crmTrainDefDialog.cpp" />
+		<Unit filename="../gui/crmTrainDefDialog.h" />
+		<Unit filename="../gui/crmTrainFilterDialog.cpp" />
+		<Unit filename="../gui/crmTrainFilterDialog.h" />
+		<Unit filename="../gui/crmWelcomePeopleDialog.cpp" />
+		<Unit filename="../gui/crmWelcomePeopleDialog.h" />
+		<Unit filename="../gui/crmWelcomeRecordDialog.cpp" />
+		<Unit filename="../gui/crmWelcomeRecordDialog.h" />
+		<Unit filename="../gui/crmvalidator.cpp" />
+		<Unit filename="../gui/crmvalidator.h" />
+		<Unit filename="../sqlite3/CppSQLite3.cpp" />
+		<Unit filename="../sqlite3/CppSQLite3.h" />
+		<Unit filename="../src/crmDataModel.cpp" />
+		<Unit filename="../src/crmDataModel.h" />
+		<Unit filename="../src/crmFileInfo.cpp" />
+		<Unit filename="../src/crmFileInfo.h" />
+		<Unit filename="../src/crm_var.h" />
+		<Unit filename="../src/crmlogin.cpp" />
+		<Unit filename="../src/crmlogin.h" />
+		<Unit filename="../src/parameter.cpp" />
+		<Unit filename="../src/parameter.h" />
+		<Unit filename="../test/testDialog.cpp" />
+		<Unit filename="../test/testDialog.h" />
+		<Unit filename="../version.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

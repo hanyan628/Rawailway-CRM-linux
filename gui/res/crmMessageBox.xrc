@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="crmMessageBox">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>About ...</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxFlexGridSizer">
+					<rows>0</rows>
+					<cols>2</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<growablecols>1</growablecols>
+					<growablerows></growablerows>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT1">
+							<fg>#0000ff</fg>
+							<label>Name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_NAME">
+							<fg>#000000</fg>
+							<font>
+								<size>15</size>
+								<family>swiss</family>
+								<style>normal</style>
+								<weight>bold</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>0</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT3">
+							<fg>#0000ff</fg>
+							<label>Version:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_VERSION">
+							<font>
+								<size>8</size>
+								<family>swiss</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT5">
+							<fg>#0000ff</fg>
+							<label>Author:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_AUTHOR">
+							<fg>#ff0000</fg>
+							<font>
+								<size>10</size>
+								<family>swiss</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT7">
+							<fg>#0000ff</fg>
+							<label>E-mail:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_EMAIL">
+							<font>
+								<size>8</size>
+								<family>swiss</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT9">
+							<fg>#0000ff</fg>
+							<label>Telephone:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_PHONE">
+							<font>
+								<size>8</size>
+								<family>swiss</family>
+								<style>normal</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT11">
+							<fg>#0000ff</fg>
+							<label>Build-Info:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_LABEL_BUILDINFO">
+							<font>
+								<size>8</size>
+								<family>swiss</family>
+								<style>italic</style>
+								<weight>normal</weight>
+								<underlined>0</underlined>
+								<face>Sans</face>
+							</font>
+							<label>Label</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticLine" name="ID_STATICLINE1">
+					<style>wxLI_HORIZONTAL</style>
+					<size>10,-1</size>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxStdDialogButtonSizer">
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_OK">
+							<label>&amp;OK</label>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+

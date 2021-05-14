@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <account>
+        <default_by_card value="0" />
+        <default_by_detail value="0" />
+        <default_by_group value="1" />
+        <default_by_train value="1" />
+        <default_by_user value="1" />
+    </account>
+    <application>
+        <expense_default_price value="30.00" />
+        <expense_user_name value="散客,咖啡" />
+        <full_screen value="1" />
+        <max_screen_height value="650" />
+        <max_screen_width value="1024" />
+        <preset_image_end_id value="27" />
+        <preset_image_start_id value="3" />
+        <resource_path value="res/resource.zip#zip:xrc/" />
+        <resource_path_backup value="res/resource.zip#zip:xrc/" />
+        <shutdown value="reset" />
+    </application>
+    <datamodule>
+        <dbname_guests value="./data/guest.db" />
+        <dbname_login value="./data/login.db" />
+        <dbname_records value="./data/records.db" />
+        <dbname_trains value="./data/train.db" />
+    </datamodule>
+    <logo_image>
+        <large_cols value="3" />
+        <large_height value="80" />
+        <large_width value="200" />
+        <small_cols value="2" />
+        <small_height value="32" />
+        <small_width value="32" />
+    </logo_image>
+    <regex>
+        <date value="^(([[:digit:]]{4})(-{1})([[:digit:]]{2})(-{1})([[:digit:]]{2}))$" />
+        <datetime value="^(([[:digit:]]{4})((/|-){1})([[:digit:]]{1,2})((/|-){1})([[:digit:]]{1,2})(([T]|[[:space:]]){1})(([[:digit:]]{1,2})(\:{1})([[:digit:]]{2})(\:{1})([[:digit:]]{2})))$" />
+        <price value="^(([[:digit:]]+)(\.?)([[:digit:]]{0,2}))$" />
+        <time value="^(([[:digit:]]{1,2})(\:{1})([[:digit:]]{2}))$" />
+        <traininfo value="^(([A-Z0-9]{1,5})([[:space:]]{0,10})(.{0,20}))$" />
+    </regex>
+    <report>
+        <html_bgcolor value="#FFFFFF" />
+        <table_data_bgcolor value="#F0F0F0" />
+        <table_head_bgcolor value="#E0E0E0" />
+    </report>
+    <shift>
+        <switch value="8" />
+    </shift>
+    <welcome>
+        <always_show_welcome value="1" />
+        <my_station value="汉口" />
+        <show_range value="3" />
+        <show_welcome_list value="0" />
+    </welcome>
+</root>

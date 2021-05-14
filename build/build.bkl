@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!-- $Id: bakefile_quickstart.txt,v 1.5 2006/02/11 18:41:11 KO Exp $ -->
+
+<makefile>
+    <include file="presets/wx.bkl"/>
+    <include file="presets/simple.bkl"/>
+
+    <template id="sqlite3">
+	<sys-lib>sqlite3</sys-lib>
+    </template>
+
+    <template id="tinyxml">
+        <sys-lib>tinyxml</sys-lib>
+    </template>
+
+    <template id="gtk">
+	<include>`pkg-config gtk+-3.0 --cflags`</include>
+	<ldlibs>`pkg-config gtk+-3.0 --libs`</ldlibs>
+    </template>
+
+    <template id="wx1">
+	<include>`wx-config --cflags`</include>
+	<ldlibs>`wx-config --libs`</ldlibs>
+    </template>
+
+    <template id="my_wx" template="wxgui">
+        <cflags>`wx-config --cflags`</cflags>
+	<cxxflags>`wx-config --cxxflags`</cxxflags>
+	<cppflags>`wx-config --cppflags`</cppflags>
+    </template>
+
+    <exe id="RailwayCRM-31-DEB" template="my_wx,wx1,simple,sqlite3,tinyxml,gtk">
+        <sources>$(fileList('../*.cpp'))</sources>
+	<sources>$(fileList('../src/*.cpp'))</sources>
+	<sources>$(fileList('../datamodule/*.cpp'))</sources>
+	<sources>$(fileList('../gui/*.cpp'))</sources>
+	<sources>$(fileList('../sqlite3/*.cpp'))</sources>
+	<sources>$(fileList('../test/*.cpp'))</sources>
+    </exe>
+</makefile>

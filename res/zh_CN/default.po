@@ -1,0 +1,1052 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RailwayCRM-30-deb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-19 19:47-0800\n"
+"PO-Revision-Date: 2017-02-19 19:47-0800\n"
+"Last-Translator: Hyan <hanyan@public.wh.hb.cn>\n"
+"Language-Team: Hyan <38047526@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: res\n"
+"X-Poedit-SearchPath-1: gui\n"
+"X-Poedit-SearchPath-2: datamodule\n"
+"X-Poedit-SearchPath-3: src\n"
+"X-Poedit-SearchPath-4: .\n"
+
+#: RailwayCRMApp.cpp:83
+msgid "the CRM Application is already running!"
+msgstr "“客户登记CRM”应用程序已经运行！"
+
+#: RailwayCRMMain.cpp:148
+msgid "Verify Password Failed!"
+msgstr "密码错误！"
+
+#: RailwayCRMMain.cpp:149 RailwayCRMMain.cpp:217 RailwayCRMMain.cpp:373
+#: RailwayCRMMain.cpp:387 RailwayCRMMain.cpp:458 RailwayCRMMain.cpp:533
+#: datamodule/crm_backup.cpp:28 datamodule/crm_backup.cpp:152
+#: datamodule/crm_backup.cpp:217 datamodule/crm_backup.cpp:273
+#: datamodule/crm_backup.cpp:351 datamodule/crm_backup.cpp:427
+#: datamodule/crm_backup.cpp:507 datamodule/crm_backup.cpp:566
+#: datamodule/crm_backup.cpp:647 datamodule/crm_backup.cpp:716
+#: gui/crmDataDefineDialog.cpp:152 gui/crmDayAccountDialog.cpp:67
+#: gui/crmReportDialog.cpp:73 gui/crmReportDialog.cpp:135
+#: gui/crmWelcomeRecordDialog.cpp:220
+msgid "tip:"
+msgstr "提示："
+
+#: RailwayCRMMain.cpp:182
+msgid "day"
+msgstr "白班"
+
+#: RailwayCRMMain.cpp:183
+msgid "night"
+msgstr "夜班"
+
+#: RailwayCRMMain.cpp:192
+#, c-format
+msgid ""
+"'day shift' is today;\n"
+" if now time after %d:30, 'night shift' is tomorrow."
+msgstr ""
+"“白班”的结帐日期为当天，\n"
+"“夜班”的结帐日期为昨天（“%d:30”以前）。"
+
+#: RailwayCRMMain.cpp:196
+msgid "Please select shift"
+msgstr "请选择班次"
+
+#: RailwayCRMMain.cpp:217
+msgid "are you close system?"
+msgstr "确定要关闭系统吗？"
+
+#: RailwayCRMMain.cpp:359
+msgid "please login first!"
+msgstr "请先登录系统！"
+
+#: RailwayCRMMain.cpp:372
+msgid "confirm password failed!"
+msgstr "密码确认错误！"
+
+#: RailwayCRMMain.cpp:386
+msgid "verify old password failed!"
+msgstr "密码校验错误！"
+
+#: RailwayCRMMain.cpp:457
+msgid "now time is large than shift time, are you continue?"
+msgstr "现在已超过接班时间，是否继续？"
+
+#: RailwayCRMMain.cpp:531
+#, c-format
+msgid "card_id '%s', is already used with %d times today, are you continue?"
+msgstr "卡号‘%s’，今天已使用过‘%d’次，是否继续？"
+
+#: datamodule/crm_backup.cpp:18
+msgid "Choose Import file"
+msgstr "选择或输入一个导入的文件名"
+
+#: datamodule/crm_backup.cpp:27 datamodule/crm_backup.cpp:715
+msgid "are you truncate table of the old datas?"
+msgstr "是否删除数据库中已经存在的数据？"
+
+#: datamodule/crm_backup.cpp:42
+msgid "Choice Export file"
+msgstr "选择或输入一个导出的文件名"
+
+#: datamodule/crm_backup.cpp:71
+msgid "no data or column, report bcpout error!"
+msgstr "数据源中没有数据，报表导出出错！"
+
+#: datamodule/crm_backup.cpp:76
+msgid "export report"
+msgstr "导出报表文件"
+
+#: datamodule/crm_backup.cpp:77
+msgid "report head"
+msgstr "报表头"
+
+#: datamodule/crm_backup.cpp:92
+msgid "title export ..."
+msgstr "报表头导出中  ..."
+
+#: datamodule/crm_backup.cpp:104
+msgid "head columns export ..."
+msgstr "报表的列信息导出中  ..."
+
+#: datamodule/crm_backup.cpp:111 datamodule/crm_backup.cpp:115
+msgid "report data export ..."
+msgstr "报表数据导出中，请稍后…"
+
+#: datamodule/crm_backup.cpp:118 datamodule/crm_backup.cpp:773
+msgid "Do you really want to cancel?"
+msgstr "您真的要取消操作吗？"
+
+#: datamodule/crm_backup.cpp:119 datamodule/crm_backup.cpp:774
+msgid "Progress dialog question"
+msgstr "提示："
+
+#: datamodule/crm_backup.cpp:132
+msgid "report foot export ..."
+msgstr "报表备注导出中 ..."
+
+#: datamodule/crm_backup.cpp:140
+msgid "report export finished!"
+msgstr "报表导出成功！"
+
+#: datamodule/crm_backup.cpp:152
+msgid "import data of train dir, please wait ..."
+msgstr "车次数据导入中，请稍后…"
+
+#: datamodule/crm_backup.cpp:217
+msgid "export data of train dir, please wait ..."
+msgstr "车次数据导出中，请稍后…"
+
+#: datamodule/crm_backup.cpp:273
+msgid "import data of welcome records, please wait ..."
+msgstr "往来记录数据导入中，请稍后…"
+
+#: datamodule/crm_backup.cpp:351
+msgid "export data of welcome records, please wait ..."
+msgstr "往来记录数据导出中，请稍后…"
+
+#: datamodule/crm_backup.cpp:427
+msgid "import data of guests, please wait ..."
+msgstr "客户数据导入中，请稍后…"
+
+#: datamodule/crm_backup.cpp:507
+msgid "export data of guests, please wait ..."
+msgstr "客户数据导出中，请稍后…"
+
+#: datamodule/crm_backup.cpp:566
+msgid "import data of operators, please wait ..."
+msgstr "操作员数据导入中，请稍后…"
+
+#: datamodule/crm_backup.cpp:647
+msgid "export data of operators, please wait ..."
+msgstr "操作员数据导出中，请稍后…"
+
+#: datamodule/crm_backup.cpp:703
+msgid "Choose image files to import"
+msgstr "选择一个图片文件"
+
+#: datamodule/crm_backup.cpp:738
+msgid "import image files"
+msgstr "导入图片资源"
+
+#: datamodule/crm_backup.cpp:739 datamodule/crm_backup.cpp:748
+msgid "wait ..."
+msgstr "稍等 ..."
+
+#: datamodule/crm_backup.cpp:754
+msgid "truncate date of images ..."
+msgstr "清除数据库中的图片资源 ..."
+
+#: datamodule/crm_backup.cpp:770
+msgid "import image files, please wait ..."
+msgstr "图片资源导入中，请稍后…"
+
+#: gui/ParameterDataModal.cpp:8
+msgid "read parameter file error!"
+msgstr "读取参数文件“parameter.xml”错误！"
+
+#: gui/ParameterDataModal.cpp:146
+msgid "Cannot remove the root item!"
+msgstr "无法移除“根类别“条目！"
+
+#: gui/ParameterDataModal.cpp:154
+msgid "Cannot remove the container item!"
+msgstr "无法移除“类别“条目！"
+
+#: gui/ParameterDefDialog.cpp:76
+msgid "category"
+msgstr "分类"
+
+#: gui/ParameterDefDialog.cpp:76
+msgid "key"
+msgstr "键名"
+
+#: gui/ParameterDefDialog.cpp:81
+msgid "value"
+msgstr "键值"
+
+#: gui/crmDataDefineDialog.cpp:152
+msgid "retrieve table, please wait ..."
+msgstr "正在读取数据，请稍后…"
+
+#: gui/crmDataDefineDialog.cpp:212
+msgid "mush define dataset first!"
+msgstr "数据存储定义错误，请管理员解决！"
+
+#: gui/crmDataDefineDialog.cpp:277
+msgid "Please selected one row first!"
+msgstr "请先选择要操作的记录！"
+
+#: gui/crmDataDefineDialog.cpp:313
+msgid "Please selected a row first!"
+msgstr "请先选择要操作的记录！"
+
+#: gui/crmDataDefineDialog.cpp:361
+msgid "truncate table error!"
+msgstr "清空数据库失败！"
+
+#: gui/crmDataDefineDialog.cpp:367
+msgid "open import file error!"
+msgstr "无法打开导入文件！"
+
+#: gui/crmDataDefineDialog.cpp:371
+#, c-format
+msgid "import finish, %d rows error, insert %d rows."
+msgstr "导入成功， %d 条记录未成功, 已导入 %d 条数据记录。"
+
+#: gui/crmDataDefineDialog.cpp:399
+msgid "export table error!"
+msgstr "数据导出失败！"
+
+#: gui/crmDataDefineDialog.cpp:403
+#, c-format
+msgid "export finish, %d rows error, export %d rows."
+msgstr "导出成功， %d 条记录未成功, 已导出 %d 条数据记录。"
+
+#: gui/crmDayAccountDialog.cpp:59
+msgid "account report print"
+msgstr "结帐单打印"
+
+#: gui/crmDayAccountDialog.cpp:67 gui/crmReportDialog.cpp:73
+msgid "accountting, please wait ..."
+msgstr "统计中，请稍后…"
+
+#: gui/crmDayAccountDialog.cpp:81
+msgid "account report"
+msgstr "结帐单"
+
+#: gui/crmDayAccountDialog.cpp:88 res/crmDayAccountDialog.xrc:15
+#: res/crmRecordModifyDialog.xrc:39 res/RailwayCRMFrame.xrc:321
+msgid "statistics date:"
+msgstr "结账日期："
+
+#: gui/crmDayAccountDialog.cpp:90
+msgid "service name:"
+msgstr "服务员："
+
+#: gui/crmDayAccountDialog.cpp:92
+msgid "welcome count:"
+msgstr "登记人数："
+
+#: gui/crmDayAccountDialog.cpp:92
+#, c-format
+msgid "PEOPLE %d"
+msgstr "%d 人"
+
+#: gui/crmDayAccountDialog.cpp:94
+msgid "real price:"
+msgstr "应收金额："
+
+#: gui/crmDayAccountDialog.cpp:94
+#, c-format
+msgid "RMB %.2f"
+msgstr "%.2f 元"
+
+#: gui/crmDayAccountDialog.cpp:106 res/crmDayAccountDialog.xrc:56
+#: res/crmReportDialog.xrc:19
+msgid "by group"
+msgstr "按组别"
+
+#: gui/crmDayAccountDialog.cpp:118 res/crmDayAccountDialog.xrc:64
+#: res/crmReportDialog.xrc:20
+msgid "by user"
+msgstr "按客户"
+
+#: gui/crmDayAccountDialog.cpp:130 res/crmDayAccountDialog.xrc:72
+#: res/crmReportDialog.xrc:21
+msgid "by card"
+msgstr "按卡别"
+
+#: gui/crmDayAccountDialog.cpp:142 res/crmDayAccountDialog.xrc:80
+#: res/crmReportDialog.xrc:22
+msgid "by train"
+msgstr "按车次"
+
+#: gui/crmDayAccountDialog.cpp:154
+msgid "by detail"
+msgstr "明细"
+
+#: gui/crmGuestFilterDialog.cpp:37 gui/crmGuestFilterDialog.cpp:38
+#: gui/crmGuestFilterDialog.cpp:39 gui/crmGuestFilterDialog.cpp:41
+#: gui/crmGuestFilterDialog.cpp:42 gui/crmGuestFilterDialog.cpp:84
+#: gui/crmGuestFilterDialog.cpp:85 gui/crmGuestFilterDialog.cpp:91
+#: gui/crmGuestFilterDialog.cpp:100 gui/crmGuestFilterDialog.cpp:105
+#: gui/crmGuestFilterDialog.cpp:110 gui/crmGuestFilterDialog.cpp:130
+#: gui/crmGuestFilterDialog.cpp:147 gui/crmGuestFilterDialog.cpp:168
+#: gui/crmRecordFilterDialog.cpp:44 gui/crmRecordFilterDialog.cpp:45
+#: gui/crmRecordFilterDialog.cpp:46 gui/crmRecordFilterDialog.cpp:47
+#: gui/crmRecordFilterDialog.cpp:105 gui/crmRecordFilterDialog.cpp:122
+#: gui/crmRecordFilterDialog.cpp:145 gui/crmRecordFilterDialog.cpp:168
+#: gui/crmRecordFilterDialog.cpp:221 gui/crmRecordFilterDialog.cpp:227
+#: gui/crmRecordFilterDialog.cpp:233 gui/crmRecordFilterDialog.cpp:239
+#: gui/crmRecordFilterDialog.cpp:252 gui/crmRecordFilterDialog.cpp:253
+#: gui/crmRecordFilterDialog.cpp:260
+msgid "ALL"
+msgstr "全部"
+
+#: gui/crmImageDefDialog.cpp:120
+msgid "Choose an bitmap file"
+msgstr "选择一个图片文件"
+
+#: gui/crmImageDefDialog.cpp:136
+msgid "Choose an image file (the file's ext must be true)"
+msgstr "选择一个图片文件（文件类型必须正确）"
+
+#: gui/crmMessageBox.cpp:70 res/RailwayCRMFrame.xrc:4
+msgid "RailwayCRM"
+msgstr "汉口车站贵宾俱乐部客户往来管理系统"
+
+#: gui/crmMessageBox.cpp:71
+msgid "HanYan"
+msgstr "韩 燕"
+
+#: gui/crmOperatorDefDialog.cpp:86
+msgid "maskWelcomeRecord"
+msgstr "往来记录登记"
+
+#: gui/crmOperatorDefDialog.cpp:89
+msgid "maskDayAccount"
+msgstr "日结帐"
+
+#: gui/crmOperatorDefDialog.cpp:92
+msgid "maskMonthAccount"
+msgstr "统计分析"
+
+#: gui/crmOperatorDefDialog.cpp:95
+msgid "maskTrainsDef"
+msgstr "车次定义"
+
+#: gui/crmOperatorDefDialog.cpp:98
+msgid "maskImageDef"
+msgstr "图片资源定义"
+
+#: gui/crmOperatorDefDialog.cpp:101
+msgid "maskGuestsDef"
+msgstr "客户资料维护"
+
+#: gui/crmOperatorDefDialog.cpp:104
+msgid "maskOperatorDef"
+msgstr "操作员定义"
+
+#: gui/crmOperatorDefDialog.cpp:107
+msgid "maskRecordModify"
+msgstr "往来记录维护"
+
+#: gui/crmOperatorDefDialog.cpp:110
+msgid "maskParameterDef"
+msgstr "系统参数定义"
+
+#: gui/crmReportDialog.cpp:94
+#, c-format
+msgid "people count: %d  price: %.2f"
+msgstr "人数合计： %d  收款合计: %.2f 元"
+
+#: gui/crmReportDialog.cpp:135
+msgid "prepare report for printer, please wait ..."
+msgstr "报表数据打印准备中，请稍后…"
+
+#: gui/crmReportDialog.cpp:143
+msgid "report print"
+msgstr "报表打印"
+
+#: gui/crmReportDialog.cpp:146 res/crmReportDialog.xrc:4
+msgid "report"
+msgstr "分析报表"
+
+#: gui/crmReportDialog.cpp:157 res/crmDayAccountDialog.xrc:40
+msgid "all"
+msgstr "全部"
+
+#: gui/crmReportDialog.cpp:196
+msgid "date range:"
+msgstr "结帐起止日期："
+
+#: gui/crmReportDialog.cpp:198
+msgid " to "
+msgstr "  至  "
+
+#: gui/crmReportDialog.cpp:200 res/crmRecordFilterDialog.xrc:48
+#: res/crmRecordModifyDialog.xrc:18 res/LoginDialog.xrc:28
+#: res/RailwayCRMFrame.xrc:305
+msgid "operator name:"
+msgstr "操作员姓名："
+
+#: gui/crmReportDialog.cpp:204 res/crmGuestDefDialog.xrc:49
+#: res/crmGuestFilterDialog.xrc:14 res/crmRecordFilterDialog.xrc:68
+#: res/crmRecordModifyDialog.xrc:81 res/crmWelcomeRecordDialog.xrc:15
+msgid "group name:"
+msgstr "分组名称："
+
+#: gui/crmReportDialog.cpp:208 res/crmGuestDefDialog.xrc:70
+#: res/crmGuestFilterDialog.xrc:28 res/crmRecordFilterDialog.xrc:81
+#: res/crmRecordModifyDialog.xrc:102 res/crmWelcomeRecordDialog.xrc:33
+msgid "user name:"
+msgstr "客户名称："
+
+#: gui/crmReportDialog.cpp:212 res/crmGuestDefDialog.xrc:91
+#: res/crmGuestFilterDialog.xrc:42 res/crmRecordFilterDialog.xrc:94
+#: res/crmRecordModifyDialog.xrc:123 res/crmWelcomeRecordDialog.xrc:50
+msgid "card name:"
+msgstr "贵宾卡名称："
+
+#: gui/crmWelcomePeopleDialog.cpp:92
+msgid "the train dir load faild!"
+msgstr "车次目录信息读取失败，请重新定义或导入车次！"
+
+#: gui/crmWelcomeRecordDialog.cpp:194
+msgid "this guest is not active!"
+msgstr "这个客户定义有误，请管理员激活！"
+
+#: gui/crmWelcomeRecordDialog.cpp:195
+msgid "people limit is zero!"
+msgstr "该用户人数限制为0！"
+
+#: gui/crmWelcomeRecordDialog.cpp:219
+msgid "the train code not int dir, are you continue?"
+msgstr "输入的车次未在列车时刻表中定义，是否继续？"
+
+#: gui/crmvalidator.cpp:286
+msgid "Required information entry is empty."
+msgstr "输入的项目不能为空。"
+
+#: gui/crmvalidator.cpp:299
+msgid "Validation conflict"
+msgstr "输出错误"
+
+#: gui/crmvalidator.cpp:311
+#, c-format
+msgid "'%s' should only contain ASCII characters."
+msgstr "'%s' 只能是ASCII字符。"
+
+#: gui/crmvalidator.cpp:313
+#, c-format
+msgid "'%s' should be numeric."
+msgstr "'%s' 只能是整数值。"
+
+#: gui/crmvalidator.cpp:315
+#, c-format
+msgid "'%s' should be price."
+msgstr "'%s' 只能是整数或浮点数。"
+
+#: gui/crmvalidator.cpp:317
+#, c-format
+msgid "'%s' should be date."
+msgstr "'%s' 只能是日期格式（yyyy-mm-dd）。"
+
+#: gui/crmvalidator.cpp:319
+#, c-format
+msgid "'%s' should be time."
+msgstr "'%s' 只能是时间格式（hh:mm）。"
+
+#: gui/crmvalidator.cpp:321
+#, c-format
+msgid "'%s' should be datetime."
+msgstr "'%s' 只能是日期＋时间格式(yyyy/m/d hh:mm:ss)。"
+
+#: gui/crmvalidator.cpp:323
+#, c-format
+msgid "'%s' should be traininfo."
+msgstr "'%s' 车次信息格式输入有误。"
+
+#: res/crmChangePasswordDialog.xrc:4 res/RailwayCRMFrame.xrc:418
+msgid "change password"
+msgstr "更改密码"
+
+#: res/crmChangePasswordDialog.xrc:14
+msgid "old password:"
+msgstr "原密码："
+
+#: res/crmChangePasswordDialog.xrc:31
+msgid "new password:"
+msgstr "新密码："
+
+#: res/crmChangePasswordDialog.xrc:47
+msgid "confirm password:"
+msgstr "密码确认："
+
+#: res/crmDataDefineDialog.xrc:4 res/DataDefDialog.xrc:4
+msgid "Data Dictionary Define"
+msgstr "数据维护"
+
+#: res/crmDataDefineDialog.xrc:43
+msgid "Retrieve(&R)"
+msgstr "刷新(&R)"
+
+#: res/crmDataDefineDialog.xrc:50 res/crmReportDialog.xrc:46
+msgid "Filter(&F)"
+msgstr "筛选条件(&F)"
+
+#: res/crmDataDefineDialog.xrc:57
+msgid "Edit(&E)"
+msgstr "编辑(&E)"
+
+#: res/crmDataDefineDialog.xrc:64 res/ParameterDefDialog.xrc:56
+msgid "Insert(&I)"
+msgstr "插入(&I)"
+
+#: res/crmDataDefineDialog.xrc:71 res/ParameterDefDialog.xrc:49
+msgid "Delete(&D)"
+msgstr "删除(&D)"
+
+#: res/crmDataDefineDialog.xrc:78
+msgid "Import(&M)"
+msgstr "导入(&M)"
+
+#: res/crmDataDefineDialog.xrc:85
+msgid "Export(&X)"
+msgstr "导出(&X)"
+
+#: res/crmDataDefineDialog.xrc:92 res/crmDayAccountDialog.xrc:119
+#: res/crmImagesDialog.xrc:34 res/crmImagesSelectDialog.xrc:19
+#: res/crmReportDialog.xrc:68
+msgid "Return(&Q)"
+msgstr "返回(&Q)"
+
+#: res/crmDayAccountDialog.xrc:4 res/RailwayCRMFrame.xrc:405
+msgid "day account"
+msgstr "结帐"
+
+#: res/crmDayAccountDialog.xrc:37 res/crmReportDialog.xrc:16
+msgid "account category"
+msgstr "分类结帐"
+
+#: res/crmDayAccountDialog.xrc:48
+msgid "detail"
+msgstr "明细"
+
+#: res/crmDayAccountDialog.xrc:105 res/crmReportDialog.xrc:39
+msgid "Account(&A)"
+msgstr "统计(&A)"
+
+#: res/crmDayAccountDialog.xrc:112 res/crmReportDialog.xrc:60
+msgid "Print(&P)"
+msgstr "打印(&P)"
+
+#: res/crmGuestDefDialog.xrc:4
+msgid "Guest Define"
+msgstr "客户信息定义"
+
+#: res/crmGuestDefDialog.xrc:16 res/crmImageDefDialog.xrc:15
+#: res/crmOperatorDefDialog.xrc:15
+msgid "id:"
+msgstr "id:"
+
+#: res/crmGuestDefDialog.xrc:112
+msgid "people limit:"
+msgstr "人数限制："
+
+#: res/crmGuestDefDialog.xrc:134
+msgid "default price:"
+msgstr "收费标准："
+
+#: res/crmGuestDefDialog.xrc:176
+msgid "logo(small):"
+msgstr "logo(小):"
+
+#: res/crmGuestDefDialog.xrc:191 res/crmGuestDefDialog.xrc:240
+msgid "change ..."
+msgstr "替换为…"
+
+#: res/crmGuestDefDialog.xrc:225
+msgid "logo(large):"
+msgstr "logo(大):"
+
+#: res/crmGuestDefDialog.xrc:299 res/crmGuestFilterDialog.xrc:99
+#: res/crmImageDefDialog.xrc:184 res/crmOperatorDefDialog.xrc:131
+#: res/crmRecordFilterDialog.xrc:149 res/crmRecordModifyDialog.xrc:338
+#: res/crmRightDefDialog.xrc:107 res/crmTrainDefDialog.xrc:120
+#: res/crmTrainFilterDialog.xrc:98 res/crmWelcomeRecordDialog.xrc:234
+msgid "Reset(&R)"
+msgstr "重置(&R)"
+
+#: res/crmGuestFilterDialog.xrc:4
+msgid "guest filter"
+msgstr "客户筛选条件"
+
+#: res/crmImageDefDialog.xrc:40
+msgid "image size:"
+msgstr "图片资源大小："
+
+#: res/crmImageDefDialog.xrc:65
+msgid "image name:"
+msgstr "图片资源说明："
+
+#: res/crmImageDefDialog.xrc:87
+msgid "image type:"
+msgstr "资源类型"
+
+#: res/crmImageDefDialog.xrc:163
+msgid "(&L)Load From ..."
+msgstr "(&L)从文件导入…"
+
+#: res/crmImageDefDialog.xrc:170
+msgid "(&S)Save To ..."
+msgstr "(&S)保存到文件…"
+
+#: res/crmImageDefDialog.xrc:177
+msgid "(&I)Import Files ..."
+msgstr "(&I)批量导入图片"
+
+#: res/crmImagesSelectDialog.xrc:4
+msgid "select image"
+msgstr "选择"
+
+#: res/crmMessageBox.xrc:4
+msgid "About ..."
+msgstr "关于 ..."
+
+#: res/crmMessageBox.xrc:14
+msgid "Name:"
+msgstr "系统名称："
+
+#: res/crmMessageBox.xrc:23 res/crmMessageBox.xrc:49 res/crmMessageBox.xrc:74
+#: res/crmMessageBox.xrc:100 res/crmMessageBox.xrc:125
+#: res/crmMessageBox.xrc:150
+msgid "Label"
+msgstr "Label"
+
+#: res/crmMessageBox.xrc:40
+msgid "Version:"
+msgstr "版本："
+
+#: res/crmMessageBox.xrc:65
+msgid "Author:"
+msgstr "撰写者："
+
+#: res/crmMessageBox.xrc:91
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: res/crmMessageBox.xrc:116
+msgid "Telephone:"
+msgstr "联系电话："
+
+#: res/crmMessageBox.xrc:141
+msgid "Build-Info:"
+msgstr "编译信息："
+
+#: res/crmOperatorDefDialog.xrc:4 res/RailwayCRMFrame.xrc:128
+msgid "Operator Define"
+msgstr "操作员定义"
+
+#: res/crmOperatorDefDialog.xrc:36
+msgid "Operator Name:"
+msgstr "操作员姓名："
+
+#: res/crmOperatorDefDialog.xrc:57
+msgid "Password:"
+msgstr "登录口令："
+
+#: res/crmRecordFilterDialog.xrc:4
+msgid "Record Filter"
+msgstr "往来记录筛选条件"
+
+#: res/crmRecordFilterDialog.xrc:12
+msgid "statistics date between:"
+msgstr "结帐日期："
+
+#: res/crmRecordFilterDialog.xrc:28
+msgid "and"
+msgstr " 至 "
+
+#: res/crmRecordModifyDialog.xrc:4 res/RailwayCRMFrame.xrc:187
+msgid "Record Modify"
+msgstr "往来记录维护"
+
+#: res/crmRecordModifyDialog.xrc:60
+msgid "record time:"
+msgstr "登记时间："
+
+#: res/crmRecordModifyDialog.xrc:144 res/crmWelcomeRecordDialog.xrc:94
+msgid "card id:"
+msgstr "贵宾卡ID："
+
+#: res/crmRecordModifyDialog.xrc:165 res/crmWelcomeRecordDialog.xrc:110
+msgid "presence name:"
+msgstr "客户姓名："
+
+#: res/crmRecordModifyDialog.xrc:186 res/crmWelcomeRecordDialog.xrc:142
+msgid "people count:"
+msgstr "人  数："
+
+#: res/crmRecordModifyDialog.xrc:207
+msgid "train date:"
+msgstr "车次日期："
+
+#: res/crmRecordModifyDialog.xrc:228 res/crmTrainDefDialog.xrc:14
+#: res/crmTrainFilterDialog.xrc:41
+msgid "train code:"
+msgstr "车次信息："
+
+#: res/crmRecordModifyDialog.xrc:249 res/crmWelcomeRecordDialog.xrc:158
+msgid "price:"
+msgstr "收  款："
+
+#: res/crmRecordModifyDialog.xrc:276 res/crmWelcomeRecordDialog.xrc:174
+msgid "comment:"
+msgstr "备  注："
+
+#: res/crmReportDialog.xrc:18
+msgid "default"
+msgstr "默认"
+
+#: res/crmReportDialog.xrc:23
+msgid "by statistics date"
+msgstr "按结帐日期"
+
+#: res/crmReportDialog.xrc:24
+msgid "by operator"
+msgstr "按操作员"
+
+#: res/crmReportDialog.xrc:53
+msgid "(&S)Save As ..."
+msgstr "(&S)另存为…"
+
+#: res/crmRightDefDialog.xrc:4
+msgid "Module Right Define"
+msgstr "模块权限定义"
+
+#: res/crmRightDefDialog.xrc:15
+msgid "module id:"
+msgstr "ID:"
+
+#: res/crmRightDefDialog.xrc:32
+msgid "module name:"
+msgstr "模块名称："
+
+#: res/crmRightDefDialog.xrc:46
+msgid "right mask:"
+msgstr "权限掩码："
+
+#: res/crmTrainDefDialog.xrc:4
+msgid "train define"
+msgstr "车次定义"
+
+#: res/crmTrainDefDialog.xrc:22 res/crmTrainDefDialog.xrc:38
+#: res/crmTrainDefDialog.xrc:54 res/crmTrainDefDialog.xrc:70
+msgid "Text"
+msgstr "Text"
+
+#: res/crmTrainDefDialog.xrc:30 res/crmTrainFilterDialog.xrc:15
+msgid "start station name:"
+msgstr "始发站："
+
+#: res/crmTrainDefDialog.xrc:46 res/crmTrainFilterDialog.xrc:28
+msgid "end station name:"
+msgstr "终到站："
+
+#: res/crmTrainDefDialog.xrc:62
+msgid "start time:"
+msgstr "本站开车时间："
+
+#: res/crmTrainFilterDialog.xrc:4
+msgid "train filter"
+msgstr "车次筛选"
+
+#: res/crmWelcomePeopleDialog.xrc:4
+msgid "welcome people"
+msgstr "已登记客户"
+
+#: res/crmWelcomePeopleDialog.xrc:42
+msgid "still on top"
+msgstr "总在最前面"
+
+#: res/crmWelcomePeopleDialog.xrc:57
+msgid "hide(&H)"
+msgstr "隐藏窗口(&H)"
+
+#: res/crmWelcomePeopleDialog.xrc:64
+msgid "retrieve(&R)"
+msgstr "刷新(&R)"
+
+#: res/crmWelcomeRecordDialog.xrc:4
+msgid "welcome input"
+msgstr "登记"
+
+#: res/crmWelcomeRecordDialog.xrc:126
+msgid "train info:"
+msgstr "车次信息："
+
+#: res/DataDefDialog.xrc:48
+msgid "&Edit"
+msgstr "编辑"
+
+#: res/DataDefDialog.xrc:55
+msgid "&Insert"
+msgstr "插入"
+
+#: res/DataDefDialog.xrc:62
+msgid "&Delete"
+msgstr "删除"
+
+#: res/DataDefDialog.xrc:69
+msgid "&Retrieve"
+msgstr "刷新"
+
+#: res/DataDefDialog.xrc:76
+msgid "&Filter"
+msgstr "筛选"
+
+#: res/DataDefDialog.xrc:83
+msgid "Export"
+msgstr "导出"
+
+#: res/DataDefDialog.xrc:90
+msgid "I&mport"
+msgstr "导入"
+
+#: res/DataDefDialog.xrc:97
+msgid "Return"
+msgstr "返回"
+
+#: res/InputParameterItemDialog.xrc:4
+msgid "input"
+msgstr "输入"
+
+#: res/InputParameterItemDialog.xrc:16
+msgid "category:"
+msgstr "类别："
+
+#: res/InputParameterItemDialog.xrc:30
+msgid "key:"
+msgstr "键名："
+
+#: res/InputParameterItemDialog.xrc:44
+msgid "value:"
+msgstr "键值："
+
+#: res/LoginDialog.xrc:4 res/testDialog.xrc:4
+msgid "Dialog"
+msgstr "系统登录"
+
+#: res/LoginDialog.xrc:45
+msgid "password:"
+msgstr "密  码："
+
+#: res/LoginDialog.xrc:95
+msgid "Shutdown(&Q)"
+msgstr "关机(&Q)"
+
+#: res/ParameterDefDialog.xrc:4
+msgid "parameter define"
+msgstr "系统参数定义"
+
+#: res/RailwayCRMFrame.xrc:56
+msgid "Welcome Record"
+msgstr "客户往来登记"
+
+#: res/RailwayCRMFrame.xrc:69
+msgid "Day Account"
+msgstr "结  帐"
+
+#: res/RailwayCRMFrame.xrc:82
+msgid "Month Account"
+msgstr "统计分析"
+
+#: res/RailwayCRMFrame.xrc:115
+msgid "Trains Define"
+msgstr "车次信息维护"
+
+#: res/RailwayCRMFrame.xrc:141
+msgid "Image Define"
+msgstr "图片资源定义"
+
+#: res/RailwayCRMFrame.xrc:174
+msgid "Guests Define"
+msgstr "客户信息维护"
+
+#: res/RailwayCRMFrame.xrc:200
+msgid "Parameter Define"
+msgstr "系统参数定义"
+
+#: res/RailwayCRMFrame.xrc:243
+msgid "ReLogin"
+msgstr "重新登录"
+
+#: res/RailwayCRMFrame.xrc:359
+msgid ""
+"F2 - welcome record   F3 - day account   F4 - relogin   F7 - welcome list   "
+"F8 - change password  TAB - change focus"
+msgstr ""
+"F2 - 客户登记   F3 - 结帐   F4- 重新登录   F7 - 显示登记记录   F8 - 更改密"
+"码   Tab - 焦点切换"
+
+#: res/RailwayCRMFrame.xrc:399
+msgid "&File"
+msgstr "操作"
+
+#: res/RailwayCRMFrame.xrc:401
+msgid "welcome record"
+msgstr "客户登记"
+
+#: res/RailwayCRMFrame.xrc:409
+msgid "show welcome"
+msgstr "显示登记信息"
+
+#: res/RailwayCRMFrame.xrc:414
+msgid "Relogin"
+msgstr "重新登录"
+
+#: res/RailwayCRMFrame.xrc:420
+msgid "change current operator password."
+msgstr "更改当前用户密码"
+
+#: res/RailwayCRMFrame.xrc:423
+msgid "Full Screen"
+msgstr "全屏显示"
+
+#: res/RailwayCRMFrame.xrc:429
+msgid "Quit"
+msgstr "退出"
+
+#: res/RailwayCRMFrame.xrc:431
+msgid "Quit the application"
+msgstr "退出应用程序"
+
+#: res/RailwayCRMFrame.xrc:435
+msgid "Help"
+msgstr "帮助"
+
+#: res/RailwayCRMFrame.xrc:437
+msgid "About"
+msgstr "关于"
+
+#: res/RailwayCRMFrame.xrc:439
+msgid "Show info about this application"
+msgstr "显示应用程序相关信息"
+
+#: res/RailwayCRMFrame.xrc:442 res/testDialog.xrc:40
+msgid "test"
+msgstr "test"
+
+#: src/crmDataModel.cpp:66
+msgid "the row out of range!"
+msgstr "行超出表格范围！"
+
+#: src/crmDataModel.cpp:72
+msgid "the col out of range!"
+msgstr "列超出表格范围！"
+
+#: src/crmDataModel.cpp:83
+msgid "sort column is large !"
+msgstr "按列排序出错，可能是该列超出范围！"
+
+#: src/crmDataModel.cpp:131
+msgid "init dataview column error!"
+msgstr "初始化表头出错！"
+
+#: src/crmDataModel.cpp:185
+msgid "init data buffer error!"
+msgstr "初始化数据缓存失败！"
+
+#~ msgid ""
+#~ "'day shift' is today;\n"
+#~ " if now time after %d:00, 'night shift' is tomorrow."
+#~ msgstr ""
+#~ "“白班”的结帐日期为当天，\n"
+#~ "“夜班”的结帐日期为昨天（“%d:00”以前）。"
+
+#~ msgid "tip："
+#~ msgstr "提示："
+
+#~ msgid "Input an cvs file"
+#~ msgstr "输入一个CVS文件"
+
+#~ msgid "Reset(&Q)"
+#~ msgstr "返回(&Q)"
+
+#~ msgid "&Reset"
+#~ msgstr "重置"
+
+#~ msgid "&Return"
+#~ msgstr "返回"
+
+#~ msgid "Filter"
+#~ msgstr "筛选条件"
+
+#~ msgid "retrieve"
+#~ msgstr "刷新"
+
+#~ msgid "welcome people:"
+#~ msgstr "已登记客户"
+
+#~ msgid "start date:"
+#~ msgstr "起始日期："
+
+#~ msgid "end date:"
+#~ msgstr "截止日期："
+
+#~ msgid "RailwayCRM-30-fc8, Copyright by HanYan (2010-12-31)"
+#~ msgstr "RailwayCRM-30-fc8, Copyright by HanYan (2010-12-31)"
+
+#~ msgid "刷 新"
+#~ msgstr "刷 新"
+
+#~ msgid "保 存"
+#~ msgstr "保 存"
+
+#~ msgid "修 改"
+#~ msgstr "修 改"
+
+#~ msgid "增 加"
+#~ msgstr "增 加"
+
+#~ msgid "删 除"
+#~ msgstr "删 除"
+
+#~ msgid "Welcome to..."
+#~ msgstr "欢迎…"
+
+#~ msgid "the operator is : "
+#~ msgstr "操作员："

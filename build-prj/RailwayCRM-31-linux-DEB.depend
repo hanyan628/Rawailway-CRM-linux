@@ -1,0 +1,509 @@
+# depslib dependency file v1.0
+1299647403 source:/home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_account.cpp
+	"crm_account.h"
+
+1299647525 /home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_account.h
+	"./crm_dataset.h"
+
+1299646806 /home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_dataset.h
+	<string>
+	"../sqlite3/CppSQLite3.h"
+
+1299141053 /home/hanyan/source/RailwayCRM-31-linux/sqlite3/CppSQLite3.h
+	"sqlite3.h"
+	<cstdio>
+	<cstring>
+
+1299646806 source:/home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_dataset.cpp
+	"crm_dataset.h"
+	"../src/parameter.h"
+
+1298184866 /home/hanyan/source/RailwayCRM-31-linux/src/parameter.h
+	<tinyxml.h>
+	<string>
+	<map>
+	<algorithm>
+	<functional>
+
+1486804059 source:/home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_backup.cpp
+	"crm_backup.h"
+	<fstream>
+	<iostream>
+	<wx/string.h>
+	<wx/progdlg.h>
+	<wx/msgdlg.h>
+	<wx/log.h>
+	<wx/notifmsg.h>
+	<wx/filedlg.h>
+	<wx/wfstream.h>
+	"../src/crmFileInfo.h"
+
+1300725428 /home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_backup.h
+	"./crm_dataset.h"
+	"../src/crmDataModel.h"
+
+1299633328 /home/hanyan/source/RailwayCRM-31-linux/src/crmDataModel.h
+	<wx/dataview.h>
+	<wx/vector.h>
+	<wx/arrstr.h>
+	"../sqlite3/CppSQLite3.h"
+
+1300686236 /home/hanyan/source/RailwayCRM-31-linux/src/crmFileInfo.h
+	<wx/filename.h>
+	<wx/image.h>
+
+1487597125 source:/home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_welcome.cpp
+	"./crm_welcome.h"
+	"../src/parameter.h"
+	<wx/log.h>
+
+1487597059 /home/hanyan/source/RailwayCRM-31-linux/datamodule/crm_welcome.h
+	<vector>
+	"./crm_dataset.h"
+
+1299647761 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmChangePasswordDialog.cpp
+	"crmChangePasswordDialog.h"
+	<wx/xrc/xmlres.h>
+	<wx/valtext.h>
+
+1299647761 /home/hanyan/source/RailwayCRM-31-linux/gui/crmChangePasswordDialog.h
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1485511505 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmDataDefineDialog.cpp
+	"crmDataDefineDialog.h"
+	<wx/xrc/xmlres.h>
+	"../src/parameter.h"
+	"./crmTrainDefDialog.h"
+	"./crmTrainFilterDialog.h"
+	"./crmOperatorDefDialog.h"
+	"./crmImageDefDialog.h"
+	"./crmGuestDefDialog.h"
+	"./crmRecordModifyDialog.h"
+	"./crmRecordFilterDialog.h"
+	"./crmGuestFilterDialog.h"
+	<wx/msgdlg.h>
+	<wx/filedlg.h>
+	<wx/notifmsg.h>
+	<wx/log.h>
+
+1299647796 /home/hanyan/source/RailwayCRM-31-linux/gui/crmDataDefineDialog.h
+	<wx/dialog.h>
+	<wx/dataview.h>
+	"./crmEditDataDialog.h"
+	"./crmFilterDataDialog.h"
+	"../datamodule/crm_dataset.h"
+	"../datamodule/crm_backup.h"
+	"../src/crmDataModel.h"
+
+1299647940 /home/hanyan/source/RailwayCRM-31-linux/gui/crmEditDataDialog.h
+	"../datamodule/crm_dataset.h"
+	"../src/crm_var.h"
+	<wx/dialog.h>
+
+1299162267 /home/hanyan/source/RailwayCRM-31-linux/src/crm_var.h
+
+1299647972 /home/hanyan/source/RailwayCRM-31-linux/gui/crmFilterDataDialog.h
+	"../datamodule/crm_dataset.h"
+	"../src/crm_var.h"
+	<wx/dialog.h>
+
+1299649236 /home/hanyan/source/RailwayCRM-31-linux/gui/crmTrainDefDialog.h
+	"./crmEditDataDialog.h"
+	<wx/textctrl.h>
+	<wx/dialog.h>
+
+1299649287 /home/hanyan/source/RailwayCRM-31-linux/gui/crmTrainFilterDialog.h
+	"./crmFilterDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1299648901 /home/hanyan/source/RailwayCRM-31-linux/gui/crmOperatorDefDialog.h
+	"./crmEditDataDialog.h"
+	<wx/dynarray.h>
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/checklst.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1300722668 /home/hanyan/source/RailwayCRM-31-linux/gui/crmImageDefDialog.h
+	"./crmEditDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/statbmp.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1299648056 /home/hanyan/source/RailwayCRM-31-linux/gui/crmGuestDefDialog.h
+	"./crmEditDataDialog.h"
+	"./crmImagesSelectDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/datectrl.h>
+	<wx/spinctrl.h>
+	<wx/statline.h>
+	<wx/dateevt.h>
+	<wx/statbmp.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/combobox.h>
+
+1299648755 /home/hanyan/source/RailwayCRM-31-linux/gui/crmImagesSelectDialog.h
+	<wx/bmpbuttn.h>
+	"../datamodule/crm_dataset.h"
+	<wx/scrolwin.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1299646030 /home/hanyan/source/RailwayCRM-31-linux/gui/crmRecordModifyDialog.h
+	"./crmEditDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/combobox.h>
+
+1299648968 /home/hanyan/source/RailwayCRM-31-linux/gui/crmRecordFilterDialog.h
+	"./crmFilterDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/datectrl.h>
+	<wx/statline.h>
+	<wx/dateevt.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/combobox.h>
+
+1299648263 /home/hanyan/source/RailwayCRM-31-linux/gui/crmGuestFilterDialog.h
+	"./crmFilterDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/combobox.h>
+
+1484024209 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmDayAccountDialog.cpp
+	"crmDayAccountDialog.h"
+	"../src/crmlogin.h"
+	"../src/parameter.h"
+	<wx/notifmsg.h>
+	<wx/msgdlg.h>
+	<wx/xrc/xmlres.h>
+	<wx/html/htmprint.h>
+
+1299644763 /home/hanyan/source/RailwayCRM-31-linux/gui/crmDayAccountDialog.h
+	"../datamodule/crm_account.h"
+	<wx/dialog.h>
+	<wx/datectrl.h>
+	<wx/dateevt.h>
+	<wx/button.h>
+	<wx/checkbox.h>
+	<wx/html/htmlwin.h>
+
+1293110352 /home/hanyan/source/RailwayCRM-31-linux/src/crmlogin.h
+	<string>
+	"../sqlite3/CppSQLite3.h"
+
+1301216142 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmGuestDefDialog.cpp
+	"crmGuestDefDialog.h"
+	"./crmvalidator.h"
+	"../src/crmFileInfo.h"
+	<wx/mstream.h>
+	<wx/image.h>
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1299649588 /home/hanyan/source/RailwayCRM-31-linux/gui/crmvalidator.h
+	<wx/valgen.h>
+	<wx/string.h>
+	<wx/regex.h>
+	<string>
+
+1299648337 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmGuestFilterDialog.cpp
+	"crmGuestFilterDialog.h"
+	<wx/valtext.h>
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1300722664 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmImageDefDialog.cpp
+	"crmImageDefDialog.h"
+	"./crmvalidator.h"
+	"../src/crmFileInfo.h"
+	<fstream>
+	<wx/notifmsg.h>
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/mstream.h>
+	<wx/filedlg.h>
+	<wx/filename.h>
+	<wx/wfstream.h>
+
+1301213383 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmImagesDialog.cpp
+	"crmImagesDialog.h"
+	"../src/parameter.h"
+	"../src/crmFileInfo.h"
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/sizer.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/mstream.h>
+	<wx/stattext.h>
+
+1300463680 /home/hanyan/source/RailwayCRM-31-linux/gui/crmImagesDialog.h
+	"../datamodule/crm_dataset.h"
+	<wx/bmpbuttn.h>
+	<wx/xrc/xmlres.h>
+	<wx/scrolwin.h>
+	<wx/dialog.h>
+	<wx/hashmap.h>
+	<wx/log.h>
+
+1484024227 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmImagesSelectDialog.cpp
+	"crmImagesSelectDialog.h"
+	"../src/parameter.h"
+	"../src/crmFileInfo.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/mstream.h>
+	<wx/log.h>
+	<wx/xrc/xmlres.h>
+
+1299648850 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmMessageBox.cpp
+	"crmMessageBox.h"
+	"../version.h"
+	<wx/xrc/xmlres.h>
+
+1299648807 /home/hanyan/source/RailwayCRM-31-linux/gui/crmMessageBox.h
+	<wx/stattext.h>
+	<wx/statline.h>
+	<wx/dialog.h>
+
+1486805850 /home/hanyan/source/RailwayCRM-31-linux/version.h
+
+1299648901 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmOperatorDefDialog.cpp
+	"crmOperatorDefDialog.h"
+	"./crmvalidator.h"
+	<wx/msgdlg.h>
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1299649135 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmRecordFilterDialog.cpp
+	"crmRecordFilterDialog.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/msgdlg.h>
+
+1299646013 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmRecordModifyDialog.cpp
+	"crmRecordModifyDialog.h"
+	"./crmvalidator.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1300719136 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmReportDialog.cpp
+	"crmReportDialog.h"
+	"../datamodule/crm_backup.h"
+	"../src/parameter.h"
+	<wx/notifmsg.h>
+	<wx/filedlg.h>
+	<wx/app.h>
+	<wx/xrc/xmlres.h>
+	<wx/html/htmprint.h>
+
+1299553053 /home/hanyan/source/RailwayCRM-31-linux/gui/crmReportDialog.h
+	"./crmRecordFilterDialog.h"
+	"../src/crmDataModel.h"
+	"../datamodule/crm_account.h"
+	<wx/stattext.h>
+	<wx/radiobox.h>
+	<wx/button.h>
+	<wx/dataview.h>
+	<wx/dialog.h>
+
+1299649236 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmRightDefDialog.cpp
+	"crmRightDefDialog.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1299649236 /home/hanyan/source/RailwayCRM-31-linux/gui/crmRightDefDialog.h
+	"./crmEditDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1299649236 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmTrainDefDialog.cpp
+	"crmTrainDefDialog.h"
+	"./crmvalidator.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1299649287 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmTrainFilterDialog.cpp
+	"crmTrainFilterDialog.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+
+1299649621 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmvalidator.cpp
+	"wx/wxprec.h"
+	"wx/dynarray.h"
+	"wx/utils.h"
+	"wx/intl.h"
+	"wx/choice.h"
+	"wx/combobox.h"
+	"wx/radiobox.h"
+	"wx/radiobut.h"
+	"wx/checkbox.h"
+	"wx/scrolbar.h"
+	"wx/gauge.h"
+	"wx/stattext.h"
+	"wx/textctrl.h"
+	"wx/button.h"
+	"wx/listbox.h"
+	"wx/slider.h"
+	"wx/checklst.h"
+	"wx/spinctrl.h"
+	"wx/datectrl.h"
+	"wx/spinbutt.h"
+	"wx/tglbtn.h"
+	<wx/log.h>
+	"crmvalidator.h"
+	"../src/parameter.h"
+
+1487137028 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmWelcomePeopleDialog.cpp
+	"crmWelcomePeopleDialog.h"
+	"../datamodule/crm_welcome.h"
+	"../src/parameter.h"
+	<wx/xrc/xmlres.h>
+	<wx/settings.h>
+	<wx/colour.h>
+	<wx/stattext.h>
+
+1299649315 /home/hanyan/source/RailwayCRM-31-linux/gui/crmWelcomePeopleDialog.h
+	<wx/checkbox.h>
+	<wx/grid.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/timer.h>
+	<wx/app.h>
+	"../datamodule/crm_account.h"
+
+1487590344 source:/home/hanyan/source/RailwayCRM-31-linux/gui/crmWelcomeRecordDialog.cpp
+	"crmWelcomeRecordDialog.h"
+	"../src/crmlogin.h"
+	"../src/parameter.h"
+	"../src/crmFileInfo.h"
+	"./crmvalidator.h"
+	"../datamodule/crm_welcome.h"
+	<wx/xrc/xmlres.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/statbmp.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/mstream.h>
+	<wx/msgdlg.h>
+	<wx/debug.h>
+	<wx/tokenzr.h>
+
+1300244680 /home/hanyan/source/RailwayCRM-31-linux/gui/crmWelcomeRecordDialog.h
+	"./crmEditDataDialog.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/spinctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	<wx/combobox.h>
+	<wx/log.h>
+
+1299647584 source:/home/hanyan/source/RailwayCRM-31-linux/gui/InputParameterItemDialog.cpp
+	"InputParameterItemDialog.h"
+	<wx/valtext.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/xrc/xmlres.h>
+
+1299647624 /home/hanyan/source/RailwayCRM-31-linux/gui/InputParameterItemDialog.h
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1300440988 source:/home/hanyan/source/RailwayCRM-31-linux/gui/LoginDialog.cpp
+	"LoginDialog.h"
+	"../src/crmlogin.h"
+	"../src/crm_var.h"
+	<wx/bitmap.h>
+	<wx/wfstream.h>
+	<wx/xrc/xmlres.h>
+	<wx/filesys.h>
+	<wx/button.h>
+
+1300440707 /home/hanyan/source/RailwayCRM-31-linux/gui/LoginDialog.h
+	<wx/dialog.h>
+	<wx/textctrl.h>
+	<wx/statbmp.h>
+	<wx/bmpcbox.h>
+	<wx/imaglist.h>
+	<wx/log.h>
+
+1484037115 source:/home/hanyan/source/RailwayCRM-31-linux/gui/ParameterDataModal.cpp
+	"ParameterDataModal.h"
+	<wx/log.h>
+
+1298194231 /home/hanyan/source/RailwayCRM-31-linux/gui/ParameterDataModal.h
+	<wx/dataview.h>
+	"../src/parameter.h"
+
+1486729732 source:/home/hanyan/source/RailwayCRM-31-linux/gui/ParameterDefDialog.cpp
+	"ParameterDefDialog.h"
+	"./InputParameterItemDialog.h"
+	"../src/parameter.h"
+	<wx/msgdlg.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/xrc/xmlres.h>
+	<wx/settings.h>
+
+1299647747 /home/hanyan/source/RailwayCRM-31-linux/gui/ParameterDefDialog.h
+	<wx/sizer.h>
+	<wx/statline.h>
+	<wx/dataview.h>
+	<wx/button.h>
+	<wx/dialog.h>
+	"ParameterDataModal.h"
+
