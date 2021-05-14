@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="RailwayCRMFrame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>1024,768</size>
+		<font>
+			<size>12</size>
+			<family>swiss</family>
+			<style>normal</style>
+			<weight>normal</weight>
+			<underlined>0</underlined>
+			<face>Sans</face>
+		</font>
+		<title>RailwayCRM</title>
+		<aui_managed>0</aui_managed>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxHtmlWindow" name="ID_HTML_LOGO">
+							<size>967,128</size>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxBoxSizer">
+							<orient></orient>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxBoxSizer">
+							<orient>wxVERTICAL</orient>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>10</border>
+								<object class="wxGridSizer">
+									<rows>3</rows>
+									<cols>4</cols>
+									<vgap>0</vgap>
+									<hgap>0</hgap>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_WELCOME">
+											<label>Welcome Record</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_ACCOUNT_DAY">
+											<label>Day Account</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_ACCOUNT_MONTH">
+											<label>Month Account</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_TRAIN">
+											<label>Trains Define</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_OPERATOR">
+											<label>Operator Define</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_IMAGE">
+											<label>Image Define</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_GUEST">
+											<label>Guests Define</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>2</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_RECORD">
+											<label>Record Modify</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_DEF_PARAMETER">
+											<label>Parameter Define</label>
+											<default>0</default>
+										</object>
+									</object>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxButton" name="ID_BUTTON_RELOGIN">
+											<label>ReLogin</label>
+											<default>0</default>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>10</border>
+				<object class="wxBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxStaticLine" name="ID_STATICLINE1">
+							<style>wxLI_HORIZONTAL</style>
+							<size>10,-1</size>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxFlexGridSizer">
+							<rows>2</rows>
+							<cols>2</cols>
+							<vgap>0</vgap>
+							<hgap>0</hgap>
+							<growablecols>0,1</growablecols>
+							<growablerows></growablerows>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="ID_STATICTEXT2">
+									<size>200,-1</size>
+									<label>operator name:</label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="ID_OPERATOR_NAME">
+									<size>200,-1</size>
+									<label></label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALIGN_LEFT|wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="ID_STATICTEXT4">
+									<label>statistics date:</label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALIGN_LEFT|wxALL</flag>
+								<border>5</border>
+								<object class="wxStaticText" name="ID_STATISTICS_DATE">
+									<size>200,-1</size>
+									<label></label>
+									<wrap>-1</wrap>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxBoxSizer">
+							<orient></orient>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<object class="wxStaticLine" name="ID_STATICLINE2">
+									<style>wxLI_HORIZONTAL</style>
+									<size>10,-1</size>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxBoxSizer">
+							<orient>wxVERTICAL</orient>
+							<object class="sizeritem">
+								<option>1</option>
+								<flag>wxALL|wxEXPAND</flag>
+								<border>5</border>
+								<object class="wxBoxSizer">
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxALL|wxEXPAND</flag>
+										<border>5</border>
+										<object class="wxStaticText" name="ID_STATICTEXT1">
+											<style>wxST_NO_AUTORESIZE</style>
+											<label>F2 - welcome record   F3 - day account   F4 - relogin   F7 - welcome list   F8 - change password  TAB - change focus</label>
+											<wrap>-1</wrap>
+										</object>
+									</object>
+								</object>
+							</object>
+							<object class="sizeritem">
+								<option>0</option>
+								<flag>wxALIGN_RIGHT</flag>
+								<border>5</border>
+								<object class="wxBoxSizer">
+									<orient></orient>
+									<object class="sizeritem">
+										<option>1</option>
+										<flag>wxALL</flag>
+										<border>5</border>
+										<object class="wxStaticText" name="ID_DATETIME_NOW">
+											<label>2017年1月27日 10:30:00</label>
+											<wrap>-1</wrap>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object class="wxMenuBar" name="m_menubar1">
+			<label></label>
+			<object class="wxMenu" name="m_menu1">
+				<label>_File</label>
+				<object class="wxMenuItem" name="ID_MENU_WELCOME">
+					<label>welcome record\tF2</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENU_ACCOUNT_DAY">
+					<label>day account\tF3</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENU_SHOW_WELCOME">
+					<label>show welcome\tF7</label>
+					<help></help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENU_RELOGIN">
+					<label>Relogin</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENU_CHANGE_PASSWORD">
+					<label>change password\tF8</label>
+					<help>change current operator password.</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENU_FULLSCREEN">
+					<label>Full Screen\tF11</label>
+					<help></help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENU_QUIT">
+					<label>Quit</label>
+					<help>Quit the application</help>
+				</object>
+			</object>
+			<object class="wxMenu" name="m_menu2">
+				<label>Help</label>
+				<object class="wxMenuItem" name="ID_MENU_ABOUT">
+					<label>About\tF1</label>
+					<help>Show info about this application</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENU_TEST">
+					<label>test\tF9</label>
+					<help></help>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+

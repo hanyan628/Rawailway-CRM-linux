@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="LoginDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>Dialog</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER</flag>
+						<border>5</border>
+						<object class="wxStaticBitmap" name="ID_STATICBITMAP1">
+							<bitmap>gui/res/images/login.bmp</bitmap>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxFlexGridSizer">
+					<rows>0</rows>
+					<cols>2</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<growablecols>1</growablecols>
+					<growablerows></growablerows>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT1">
+							<label>operator name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_CHOICE_OPERATOR" subclass="wxBitmapComboBox">
+							<style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+							<size>-1,35</size>
+							<value></value>
+							<content />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_LEFT</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT2">
+							<label>password:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxTextCtrl" name="ID_TEXTCTRL_PASSWORD">
+							<style>wxTE_PROCESS_ENTER|wxTE_PASSWORD</style>
+							<pos>-1,35</pos>
+							<size>-1,35</size>
+							<value></value>
+							<maxlength>0</maxlength>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxStaticLine" name="ID_STATICLINE1">
+							<style>wxLI_HORIZONTAL</style>
+							<size>10,0</size>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxStdDialogButtonSizer">
+							<object class="button">
+								<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_OK">
+									<label>OK</label>
+								</object>
+							</object>
+							<object class="button">
+								<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_NO">
+									<label>Shutdown(_Q)</label>
+								</object>
+							</object>
+							<object class="button">
+								<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_CANCEL">
+									<label>Cancel</label>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+

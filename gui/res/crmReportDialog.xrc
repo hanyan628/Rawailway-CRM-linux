@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="crmReportDialog">
+		<title>report</title>
+		<centered>1</centered>
+		<style>wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER</style>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<object class="wxBoxSizer">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxBoxSizer">
+							<object class="sizeritem">
+								<object class="wxRadioBox" name="ID_RADIOBOX_ACCOUNTCATEGORY">
+									<label>account category</label>
+									<content>
+										<item>default</item>
+										<item>by group</item>
+										<item>by user</item>
+										<item>by card</item>
+										<item>by train</item>
+										<item>by statistics date</item>
+										<item>by operator</item>
+									</content>
+									<style>wxRA_VERTICAL</style>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag></flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer">
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON_ACCOUNT">
+									<label>Account(&amp;A)</label>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON_FILTER">
+									<label>Filter(&amp;F)</label>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON_SAVEAS">
+									<label>(&amp;S)Save As ...</label>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="ID_BUTTON_PRINT">
+									<label>Print(&amp;P)</label>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxButton" name="wxID_CANCEL">
+									<label>Return(&amp;Q)</label>
+								</object>
+								<flag>wxALL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxLEFT|wxRIGHT|wxALIGN_RIGHT</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer">
+					<object class="sizeritem">
+						<object class="wxStaticLine" name="ID_STATICLINE2">
+							<size>10,-1</size>
+						</object>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxBOTTOM|wxLEFT|wxRIGHT|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer">
+					<object class="sizeritem">
+						<object class="unknown" name="ID_DATAVIEW_REPORT">
+							<style></style>
+							<size>800,480</size>
+							<style></style>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer">
+					<object class="sizeritem">
+						<object class="wxStaticLine" name="ID_STATICLINE1">
+							<size>10,-1</size>
+						</object>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer">
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT_FOOT">
+							<label></label>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+		</object>
+	</object>
+</resource>

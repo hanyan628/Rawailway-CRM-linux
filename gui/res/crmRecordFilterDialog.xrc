@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="crmRecordFilterDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>Record Filter</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT1">
+							<label>statistics date between:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL1">
+							<style>wxDP_DEFAULT|wxDP_DROPDOWN|wxDP_SHOWCENTURY</style>
+							<size>156,29</size>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT2">
+							<label>and</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL2">
+							<style>wxDP_DEFAULT|wxDP_DROPDOWN|wxDP_SHOWCENTURY</style>
+						</object>
+					</object>
+					<object class="spacer">
+						<option>0</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<size>86,29</size>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT3">
+							<label>operator name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_OPERATOR">
+							<value></value>
+							<content />
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT4">
+							<label>group name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_GROUP">
+							<value></value>
+							<content />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT5">
+							<label>user name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_USER">
+							<value></value>
+							<content />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT6">
+							<label>card name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_CARD">
+							<value></value>
+							<content />
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxStaticLine" name="ID_STATICLINE1">
+							<style>wxLI_HORIZONTAL</style>
+							<size>10,-1</size>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStdDialogButtonSizer">
+							<object class="button">
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_OK">
+									<label>&amp;OK</label>
+								</object>
+							</object>
+							<object class="button">
+								<flag>wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_CANCEL">
+									<label>&amp;Cancel</label>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="ID_BUTTON_RESET">
+							<label>Reset(_R)</label>
+							<default>0</default>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+

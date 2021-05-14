@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxDialog" name="crmGuestFilterDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>guest filter</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxFlexGridSizer">
+					<rows>0</rows>
+					<cols>2</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<growablecols>1</growablecols>
+					<growablerows></growablerows>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT1">
+							<label>group name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_GROUP">
+							<value></value>
+							<content />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT2">
+							<label>user name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_USER">
+							<value></value>
+							<content />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="ID_STATICTEXT3">
+							<label>card name:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxComboBox" name="ID_COMBOBOX_CARD">
+							<value></value>
+							<content />
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticLine" name="ID_STATICLINE1">
+							<style>wxLI_HORIZONTAL</style>
+							<size>10,-1</size>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient></orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStdDialogButtonSizer">
+							<object class="button">
+								<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_OK">
+									<label>&amp;OK</label>
+								</object>
+							</object>
+							<object class="button">
+								<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+								<border>5</border>
+								<object class="wxButton" name="wxID_CANCEL">
+									<label>&amp;Cancel</label>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="ID_BUTTON_RESET">
+							<label>Reset(_R)</label>
+							<default>0</default>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
+
